@@ -1,0 +1,15 @@
+<!-- item_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <stroke
+        android:width="2dp"
+    android:color="#EF1414" />
+    <corners android:radius="10dp"/>
+
+    <padding
+
+    android:bottom="4dp"
+    android:left="4dp"
+    android:right="4dp"
+    android:top="4dp" />
+</shape>

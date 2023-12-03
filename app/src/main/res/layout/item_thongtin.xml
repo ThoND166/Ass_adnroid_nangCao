@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="30px"
+    android:layout_width="match_parent"
+    android:background="@drawable/item_border"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:background="#9AFFEB3B"
+            android:src="@drawable/baseline_person_24"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1DDA0707"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:paddingLeft="10px"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="300px"
+                    android:layout_height="wrap_content"
+                    android:text="MSSV:"/>
+
+                <TextView
+                    android:id="@+id/txt_maSV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="id SP"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="10px"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="300px"
+                    android:layout_height="wrap_content"
+                    android:text="Tên:"/>
+
+                <TextView
+                    android:id="@+id/txt_ten"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="txt_ten" />
+
+                <TextView
+                    android:id="@+id/txt_xoa_tt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Xóa"
+                    android:layout_marginRight="30px"
+                    android:textStyle="bold"
+                    android:textColor="#0927EA"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:paddingLeft="10px"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="300px"
+                    android:layout_height="wrap_content"
+                    android:text="Lớp:"/>
+
+                <TextView
+                    android:id="@+id/txt_lop"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="start"
+                    />
+                <TextView
+                    android:id="@+id/txt_sua_tt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sửa"
+                    android:layout_marginRight="30px"
+                    android:textStyle="bold"
+                    android:textColor="#0927EA"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="10px"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="300px"
+                    android:layout_height="wrap_content"
+                    android:text="Môn:"/>
+
+                <TextView
+                    android:id="@+id/txt_mon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Môn:"/>
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

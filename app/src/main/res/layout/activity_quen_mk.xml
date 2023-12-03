@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30px"
+    tools:context=".Activitys.ActivityQuenMK">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:layout_gravity="center"
+        android:layout_marginTop="200px"
+        android:src="@drawable/user"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        app:endIconMode="clear_text"
+        android:layout_marginTop="50px">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_nameQuenTK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên đăng nhập" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/baseline_email_24"
+        app:endIconMode="clear_text"
+        android:layout_marginTop="50px">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_emailQuenTK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50px">
+
+        <Button
+            android:id="@+id/btnHuyTK"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="20px"
+            android:text="Hủy"/>
+
+        <Button
+            android:id="@+id/btnKiemtra"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20px"
+            android:text="Kiểm tra"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
